@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<h2>Fale sobre seu relato:</h2>
+  <textarea placeholder="Digite seu relato." style="width:100%; height:150px" name="comment" id="comment-textarea"
+			ng-model="">
+  </textarea>
+
+  <div style="float:right; margin-top: 20px;">
+    <button ion-button small style="background-color: #ffba5c" (click)="onTakePicture()">Anexar documentos</button>
+  </div>
+
+<hr>
+ <br>
+ <br>
+ <br>
+
+
+<button full ion-button round style="background-color: #17b2ce">Enviar</button>
+
+</ion-content>
